@@ -1,0 +1,17 @@
+{
+  "operator": {
+    "name": "노드오프",
+    "representative": "진동현",
+    "registrationNumber": "502-60-03676",
+    "region": "인천광역시",
+    "email": "jin@nodeoff.kr"
+  },
+  "repositories": {
+    "yeoun": "https://github.com/dhjin1125/yeoun",
+    "jjikgo": "https://github.com/dhjin1125/jjikgo",
+    "nurse-board-web": "https://github.com/dhjin1125/nurse-board-web",
+    "cursay": "https://github.com/dhjin1125/cursay",
+    "moru": "https://github.com/dhjin1125/moru",
+    "nodeoff-company": "https://github.com/dhjin1125/nodeoff-company"
+  }
+}
