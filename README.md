@@ -41,3 +41,12 @@ python3 scripts/preview.py
 ![Public service screen](docs/screenshots/company-home.png)
 
 Captured from the actual public website on 2026-10-07. This is a point-in-time view; sample UI illustrations on the company homepage are labeled as illustrations.
+
+## Korean and English pages
+
+- Korean: https://nodeoff.kr/
+- English: https://nodeoff.kr/en/
+
+Both versions include the company introduction and all five product guides. The language switch opens the same product in the other language. Linked web services currently use Korean; their English guides state this explicitly.
+
+Run `python3 scripts/build.py` after changing copy. Korean content is the source of truth; `scripts/en.json` contains reviewed English translations. Missing translations stop generation. Shared product links, business details and release states are generated from the same source. Canonical URLs, reciprocal hreflang links and the sitemap cover both languages. No client-side translation or automatic language redirect is used.
